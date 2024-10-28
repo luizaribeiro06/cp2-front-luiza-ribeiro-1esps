@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-purple: #67308C;
+    --light-purple: #C69AD9;
+    --pink: #F24998;
+    --dark-blue: #131F46;
+    --light-blue: #273A73;
+    --white: #ffffff
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(var(--dark-purple), var(--light-purple));
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px;
+    font-family: 'Righteous', cursive
+}
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 30px
+}
+
+.mark--image{
+    width: 2.5rem;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container--title{
+    position: relative;
+    text-align: center;
+}
+
+.title--text{
+    font-size:20vw;
+    color: var(--dark-blue)
+}
+
+.title--transparent{
+    position: absolute;
+    font-size: 25vw;
+    top: -30%;
+    opacity: 0.5;
+    left: 1vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: var(--dark-blue);
+    margin-bottom: 50px
+}
+
+.container div{
+    width: 55%;
+    z-index: 1;
+}
+
+.container h2{
+    font-size: 4vh;
+    text-align: start;
+    margin: 10px;
+}
+
+.container p{
+    font-size: 2vh;
+    width: 35vw;
+    text-align: start;
+    margin: 10px;
+}
+
+.twilight--image{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    height: 50vh;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    height: 50px;
+    padding: 15px;
+}
+
+.action{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.action a{
+    padding: 14px 16px;
+    background-color: var(--pink);
+    border: none;
+    border-radius: 8px ;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    color: var(--white);
+}
