@@ -54,7 +54,7 @@ main{
 
 .title--transparent{
     position: absolute;
-    font-size: 25vw;
+    font-size: 23vw;
     top: -30%;
     opacity: 0.5;
     left: 1vw;
@@ -90,14 +90,15 @@ main{
 .twilight--image{
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 62%;
     height: 50vh;
     transform: translate(-50%, -50%);
 }
 
 footer{
-    height: 50px;
-    padding: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center
 }
 
 .action{
