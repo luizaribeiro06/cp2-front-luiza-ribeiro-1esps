@@ -27,7 +27,7 @@ header{
     display: flex;
     align-items: center;
     margin: 30px;
-    color: var(--dark-blue)
+    color: var(--dark-blue);
 }
 
 .mark--image{
